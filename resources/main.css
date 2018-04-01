@@ -1,3 +1,41 @@
-#flex {
-  background-color: gray;
+header {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  font-family: sans-serif Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  position: fixed;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+a {
+  color: black;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.title img {
+  margin-right: 12px;
+  width: 70px;
+  height: 60px;
+}
+
+.title span {
+  color: mediumaquamarine;
+}
+
+header nav {
+  padding-right: 14px;
 }
