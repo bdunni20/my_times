@@ -8,13 +8,18 @@ header {
   font-weight: bold;
   border-bottom: 1px solid black;
   position: fixed;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+
 }
 
 .title {
   display: flex;
   align-items: center;
   flex-grow: 1;
-  padding-left: 30px;
+  padding-left: 30px
+  z-index: 1;
 }
 
 a {
@@ -38,4 +43,35 @@ nav span {
 
 header nav {
   padding-right: 14px;
+}
+
+.container {
+  border: 1px solid black;
+}
+
+.column big {
+  display: flex;
+  flex-direction: column;
+  width: 630px;
+}
+
+.main-story {
+  margin-top: 100px;
+  border: 1px solid black;
+}
+
+.image-content {
+  border: 1px solid black;
+}
+
+.orca {
+  border: 1px solid black;
+}
+
+.burger {
+  border: 1px solid black;
+}
+
+.text {
+  padding: 3px;
 }
